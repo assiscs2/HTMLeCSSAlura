@@ -1,8 +1,8 @@
-
 body {
   margin: 0;
   padding: 0;
 }
+/*
 
 header h1 {
   padding-left: 20px;
@@ -22,7 +22,6 @@ h2 {
   padding: 20px;
 
   margin: 10px 20px;
-
 }
 
 h2,
@@ -34,12 +33,8 @@ p {
   font-size: 20px;
 }
 
-p em strong {
-    color: red;
-}
-
 .items {
-    font-style: italic;
+  font-style: italic;
 }
 
 .benefits {
@@ -51,7 +46,8 @@ h3 {
   text-align: center;
 }
 
-ul {
+
+.benefits ul {
   display: inline-block;
   vertical-align: top;
 
@@ -59,6 +55,39 @@ ul {
   margin-right: 15vw;
 }
 
+
 .img-benefits {
   width: 50vw;
+}
+
+/*
+
+/* CSS da pagina inicial */
+
+.banner { 
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+
+  margin: 0 0 1em;
+
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.img-benefits {
+  width: 60%;
 }
